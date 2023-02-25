@@ -1,0 +1,30 @@
+{
+  "name": "my-app",
+  "scripts": {
+    "dev": "solid-start dev",
+    "build": "solid-start build",
+    "start": "solid-start start"
+  },
+  "type": "module",
+  "main": "./dist/index.js",
+  "devDependencies": {
+    "@edgio/cli": "^6.1.1",
+    "@edgio/core": "^6.1.1",
+    "@edgio/devtools": "^6.1.1",
+    "@edgio/prefetch": "^6.1.1",
+    "esbuild": "^0.14.54",
+    "solid-start-node": "^0.2.19",
+    "vite": "^3.2.5"
+  },
+  "dependencies": {
+    "@solidjs/meta": "^0.28.2",
+    "@solidjs/router": "^0.7.0",
+    "@vercel/nft": "^0.22.6",
+    "solid-js": "^1.6.11",
+    "solid-start": "^0.2.22",
+    "undici": "^5.15.1"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
